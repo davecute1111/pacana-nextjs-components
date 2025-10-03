@@ -1,0 +1,41 @@
+.cardWrapper {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  max-width: 320px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.cardImage {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  display: block; 
+}
+
+.cardName {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0.3rem 0;
+  color: #2d2d2d;
+}
+
+.cardAge {
+  font-size: 1rem;
+  color: #666;
+  margin: 0.2rem 0;
+}
+
+.cardDesc {
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: 0.5rem;
+}

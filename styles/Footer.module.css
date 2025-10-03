@@ -1,0 +1,9 @@
+.footerShell {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #888;
+  background: linear-gradient(to right, #e8ecef, #ffffff);
+  border-bottom: 2px solid #d0d0d5;
+  margin-top: 3rem;
+}
